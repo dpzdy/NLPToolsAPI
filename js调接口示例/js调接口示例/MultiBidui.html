@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>MultiBidui接口调用示例</title>
+
+
+
+    <script type="text/javascript">
+    let sourParaList = [
+    ["中国传媒大学是教育部直属的首批“双一流”建设高校，“211工程”重点建设大学，“985优势学科创新平台”重点建设高校。",
+     "中传是教育部直属的首批“双一流”建设高校，“211工程”重点建设大学，“985优势学科创新平台”重点建设高校。"],
+    ["测试语料A",
+     "测试语料B"],
+]
+      var options={
+        method:'POST',
+        headers:{
+          'Content-Type':"application/json",'X-Apig-AppCode' :'2fbd1dee3ec64bf3a35c860027f00d84faa45118659841f3a28153759f78e2cc'
+        },
+        body:JSON.stringify({"token":"test","sourParaList":sourParaList}),
+        credentials:'include'
+      };
+      fetch('/api/MultiBidui',options)
+      .then(response=>response.json())
+      .then(data=>console.log(data))
+      .catch(error=>console.log(error))
+    </script>
+  </head>
+
+
+  <body>
+    
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+  
+
+    <main class="main" id="top" >
+ 
+ 
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+  
+
+
+  
+
+  </body>
+  <style>
+   
+  </style>
+</html>

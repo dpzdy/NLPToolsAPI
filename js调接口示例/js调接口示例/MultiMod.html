@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>MultiMod接口调用示例</title>
+
+
+
+
+    <script type="text/javascript">
+    let sourList = ["今天很开心","今天很难过"]
+      var options={
+        method:'POST',
+        headers:{
+          'Content-Type':"application/json",'X-Apig-AppCode' :'2fbd1dee3ec64bf3a35c860027f00d84faa45118659841f3a28153759f78e2cc'
+        },
+        body:JSON.stringify({"token":"mod","textType":"string","sourList":sourList}),
+        credentials:'include'
+      };
+      fetch('/api/MultiMod',options)
+      .then(response=>response.json())
+      .then(data=>console.log(data))
+      .catch(error=>console.log(error))
+    </script>
+  </head>
+
+
+  <body>
+    
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+  
+
+    <main class="main" id="top" >
+ 
+ 
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+  
+
+
+  
+
+  </body>
+  <style>
+   
+  </style>
+</html>

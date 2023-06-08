@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 01 11:52:18 CST 2022
+APITEST-1.0-SNAPSHOT.jar>=
+APITEST-1.0-SNAPSHOT.pom>=
+APITEST-1.0-SNAPSHOT-sources.jar>=

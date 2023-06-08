@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ghFS/Cvhb9Fpen6cSHvnWVqd3phuB5VXXfBzLWwD9js9x1Q7cJ7HUHgAPlFLmvZcMkvUx4GXUWkktt8DGHbbA==",
+  "success": true,
+  "projectFilePath": "E:\\日常文件夹\\PostNLPAPI\\PostNLPAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CUC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\CUC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
+    "C:\\Users\\CUC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\CUC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\CUC\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
